@@ -61,7 +61,8 @@ const Login = () => {
 
             <button
               type="submit"
-              className="btn btn-block w-100 btn-primary btn-block mb-4"
+              style={{ backgroundColor: "#D2B48C", color: "white" }}
+              className="btn btn-block w-100 btn-block mb-4"
             >
               ادخل
             </button>

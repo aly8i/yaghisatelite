@@ -8,8 +8,8 @@ import {
   ResponsiveContainer,
 } from "recharts";
 const Chart = ({ aspect, title, months }) => {
-  //blue color
-  const color1 = "#007bff";
+  //#D2B48C color
+  const color1 = "#D2B48C";
 
   const getYear = (m, y) => {
     if (m < 0) return y - 1;

@@ -37,7 +37,7 @@ a {
 .lds-circle {
   display: inline-block;
   transform: translateZ(1px);
-  background-color: blue;
+  background-color: #d2b48c;
 }
 
 .loading {
@@ -50,7 +50,7 @@ a {
   height: 64px;
   margin: 8px;
   border-radius: 50%;
-  background: blue;
+  background: #d2b48c;
   animation: lds-circle 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
 }
 @keyframes lds-circle {

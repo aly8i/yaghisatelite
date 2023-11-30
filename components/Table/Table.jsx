@@ -28,7 +28,7 @@ const Table = ({ headers, data }) => {
         <tbody>
           {data.map((user, i) => (
             <tr
-              style={{ background: sUser == user?.id && "lightblue" }}
+              style={{ background: sUser == user?.id && "light#D2B48C" }}
               onClick={() => selectRow(user?.id)}
               key={i}
             >
