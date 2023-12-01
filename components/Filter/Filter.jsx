@@ -16,13 +16,13 @@ const Filter = () => {
 
   useEffect(() => {
     const filtered = data.filter((user) => {
-      const isNameMatch = user?.name.includes(name);
-      const isBoxMatch = user?.box.includes(box);
+      const isNameMatch = name === "" || user?.name?.includes(name);
+      const isBoxMatch = box === "" || user?.box?.includes(box);
       const isMonthMatch =
         month === "" || parseInt(user?.month) === parseInt(month);
       const isYearMatch =
         year === "" || parseInt(user?.year) === parseInt(year);
-      const isNumberMatch = user?.number.includes(number);
+      const isNumberMatch = number === "" || user?.number?.includes(number);
       return (
         isNameMatch &&
         isBoxMatch &&
